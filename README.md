@@ -1,6 +1,6 @@
-# Laravel 8 帶有身份驗證的最小和簡單起點
+# Laravel 10 帶有身份驗證的最小和簡單起點
 
-引入 spurwork 的 spectator 套件來擴增建構帶有身份驗證的 Laravel 應用程式，提供最小和簡單的起點。
+建構帶有身份驗證的 Laravel 應用程式，提供最小和簡單的起點，包含登入、註冊、密碼重設、電子郵件認證、以及密碼確認。此外，也包含了一個簡單的「個人檔案」頁面，在該頁面中，使用者可以更新其名稱、E-Mail 位址、以及密碼。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -20,9 +20,13 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
@@ -31,11 +35,11 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/jPhW8pP.png)
+![](https://henryleepcsfg.imgur.com/all)
 > 建立新的帳號
 
-![](https://i.imgur.com/wKVtYjZ.png)
+![](https://i.imgur.com/4pz5t6h.png)
 > 忘記密碼可以申請發送重設密碼電子郵件
 
-![](https://i.imgur.com/7kGDAao.png)
+![](https://i.imgur.com/nHCbwjL.png)
 > 使用現有的帳號登入後，進入預設歡迎頁面
