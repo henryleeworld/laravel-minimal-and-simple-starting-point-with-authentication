@@ -1,4 +1,4 @@
-# Laravel 11 帶有身份驗證的最小和簡單起點
+# Laravel 12 帶有身份驗證的最小和簡單起點
 
 建構帶有身份驗證的 Laravel 應用程式，提供最小和簡單的起點，包含登入、註冊、密碼重設、電子郵件認證、以及密碼確認。此外，也包含了一個簡單的「個人檔案」頁面，在該頁面中，使用者可以更新其名稱、E-Mail 位址、以及密碼。
 
@@ -35,11 +35,11 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/PXS2Uyb.png)
+![](https://i.imgur.com/Gm5Qj3j.png)
 > 建立新的帳號
 
-![](https://i.imgur.com/w34Ja5T.png)
+![](https://i.imgur.com/zbqkVY0.png)
 > 忘記密碼可以申請發送重設密碼電子郵件
 
-![](https://i.imgur.com/UgI7o7f.png)
+![](https://i.imgur.com/6ddL77k.png)
 > 使用現有的帳號登入後，進入預設歡迎頁面
